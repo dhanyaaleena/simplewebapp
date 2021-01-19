@@ -28,7 +28,6 @@ pipeline{
          stage ('Check changes'){
          		steps{
          			getChangeString()
-         			changed_files()
          		}
          }
        
